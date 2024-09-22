@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <div className="container">
-        <h1>Todo App</h1>
+        <h1>My Todo App</h1>
         <AddTodo currentTodo={currentTodo} setCurrentTodo={setCurrentTodo} index={currentIndex} />
         <TodoList setCurrentTodo={(todo) => {
           setCurrentTodo(todo);
